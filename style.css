@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+  width: 100%;
+  min-width: 450px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #240b36, #c31432);
+  font-family: arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  align-self: center;
+  color: #fff;
+  font-family: 'Questrial', sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 3px 15px rgba(0,0,0,0.9);
+}
+
+main {
+  padding: 20px;
+}
+
+main p {
+  color: #fff;
+}
+
+main input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  background: none;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+main .display {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #000;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+main .btn {
+  display: block;
+  margin: 15px 0;
+  padding: 5px;
+  background: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.4s;
+}
+
+main .btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: purple;
+  font-weight: bold;
+}
+
+main .btn[disabled] {
+  color: grey;
+}
+
+main .btn[disabled]:hover {
+  background: none;
+  font-weight: normal;
+  cursor: default;
+}
+
+footer {
+  margin-top: 45px;
+  color: #fff;
+  font-size: 0.9rem
+}
+
+footer a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
+}
